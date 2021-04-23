@@ -34,6 +34,7 @@ class ConnectionsService {
         const connection = await this.connectionsRepository.findOne({
             user_id
         });
+        return connection;
     }
 
 }
